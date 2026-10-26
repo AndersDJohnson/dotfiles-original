@@ -14,6 +14,10 @@ function gi() {
   curl -L -s https://www.toptal.com/developers/gitignore/api/$@
 }
 
+function gigh() {
+  curl -L -s https://raw.githubusercontent.com/github/gitignore/refs/heads/main/$@.gitignore
+}
+
 function github-host() {
   git remote -vv | grep origin | grep push | sed -E 's/.*(@|:\/\/)([^\/:]*)[\/:][^\/]*\/[^\/]*\.git.*/\2/' | sed -E 's/.*(@|:\/\/)([^\/:]*)[\/:][^\/]*\/[^\/]*(push).*/\2/'
 }
