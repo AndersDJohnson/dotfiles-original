@@ -5,6 +5,7 @@
 
 ## See Also
 
+* [AndersDJohnson/dotfiles-codespaces](https://github.com/AndersDJohnson/dotfiles-codespaces)
 * [AndersDJohnson/unix-notes](https://github.com/AndersDJohnson/unix-notes)
 * [AndersDJohnson/mac-notes](https://github.com/AndersDJohnson/mac-notes)
 
@@ -55,5 +56,7 @@ For example, `commonshrc` looks for `~/.commonshrc.host`, which I set up as a sy
 Or, you can just name file based on hostname, e.g. if your hostname is `home-computer`, then put a file named `~/.commonshrc.home-computer`.
 
 ## References
+* https://dotfiles.github.io/
 * [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
 * [paulirish/dotfiles](https://github.com/paulirish/dotfiles)
+* https://gordonbeeming.com/blog/2026-03-10/my-dotfiles-setup-how-i-manage-my-dev-environment
